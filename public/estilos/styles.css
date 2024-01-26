@@ -11,11 +11,17 @@ a{
 
 .cabecera{
     width: auto;
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     background-color: black;
-    margin: 10px;
+}
+
+nav{
+    margin-top: 25px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
 }
 
 .cabecera nav a{
@@ -39,8 +45,8 @@ a{
     margin-top: 10px;
     border: 1px solid black;
     margin-left: 10px;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
 }
 
 .caja h2{
@@ -52,6 +58,7 @@ a{
     font-size: small;
     text-wrap: balance;
     padding: 10px;
+    text-align: center;
 }
 
 .btn{
@@ -60,4 +67,26 @@ a{
     padding: 2px;
     width: 100px;
     height: 100px;
+}
+
+.imagen-diego{
+    margin: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-jero{
+    margin: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    margin: 10px;
 }
