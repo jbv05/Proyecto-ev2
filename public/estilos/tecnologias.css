@@ -79,15 +79,23 @@ nav{
     display: flex;
     justify-content: center;
     margin-left: 150px;
+    transition: all ease 1s;
 }
-
+.imagen-css:hover{
+    transform: scale(1.2);
+}
 .imagen-html{
     margin: 30px;
     height: 200px;
     display: flex;
     justify-content: center;
     margin-left: 100px;
+    transition: all ease 1s;
 }
+.imagen-html:hover{
+    transform: scale(1.2);
+}
+
 
 .imagen-gpt{
     margin: 30px;
@@ -95,6 +103,10 @@ nav{
     display: flex;
     justify-content: center;
     margin-left: 100px;
+    transition: all ease 1s;
+}
+.imagen-gpt:hover{
+    transform: scale(1.2);
 }
 
 .logo{
