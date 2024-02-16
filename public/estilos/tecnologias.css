@@ -31,6 +31,8 @@ nav{
 
 .seccion-proyecto p{
     padding: 5px;
+    text-align: center;
+    color: white;
 }
 
 .cajas{
@@ -43,14 +45,15 @@ nav{
 
 .caja{
     margin-top: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     width: 500px;
-    height: 450px;
+    height: 400px;
 }
 
 .caja h2{
     text-align: center;
+    color: white;
 }
 
 .cajas p{
@@ -59,6 +62,7 @@ nav{
     text-wrap: balance;
     padding: 10px;
     text-align: center;
+    color: white;
 }
 
 .btn{
@@ -69,19 +73,28 @@ nav{
     height: 100px;
 }
 
-.imagen-diego{
+.imagen-css{
     margin: 30px;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
+    margin-left: 150px;
 }
 
-.imagen-jero{
+.imagen-html{
     margin: 30px;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
-    margin-left: 125px;
+    margin-left: 100px;
+}
+
+.imagen-gpt{
+    margin: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .logo{
@@ -90,3 +103,27 @@ nav{
     justify-content: center;
     margin: 10px;
 }
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+body{
+    background-image: url(/public/imagenes/fondo\ programacion.avif);
+}
+

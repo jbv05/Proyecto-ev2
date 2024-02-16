@@ -1,1 +1,1 @@
-proyecto
+Somos Diego Cardona y Jerónimo Bravo, hicimos un blog hablando sobre nostros, Recode y lo que utilizamos para crear esta página.

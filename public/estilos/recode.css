@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecera {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera nav a {
+    padding: 10px;
+    color: white;
+}
+
+.informacion h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.texto p {
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.informacion img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.img_container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.informacion h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+body {
+    background-image: url(/public/imagenes/fondo\ programacion.avif);
+}
