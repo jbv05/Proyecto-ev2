@@ -116,5 +116,8 @@ footer {
 
 body{
     background-image: url(/public/imagenes/fondo\ programacion.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
